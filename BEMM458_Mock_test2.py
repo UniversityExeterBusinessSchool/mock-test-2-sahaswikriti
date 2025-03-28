@@ -22,6 +22,7 @@
 # You are given a list of numbers representing weekly sales in units.
 weekly_sales = [120, 85, 100, 90, 110, 95, 130]
 
+
 # Write a for loop that iterates through the list and prints whether each week's sales were above or below the average sales for the period.
 # Calculate and print the average sales.
 
@@ -52,6 +53,9 @@ customer_feedback = """The product was good but could be improved. I especially 
 import pandas as pd
 
 sales_data = {'Month': ['Jan', 'Feb', 'Mar', 'Apr', 'May'], 'Sales': [200, 220, 210, 240, 250]}
+data = pd. DataFrane (sales_data)
+data[Cumulative_sales]=data[sales].cumsum()
+print(data)
 
 #######################################################################################################################################################
 
@@ -69,6 +73,7 @@ sales_data = {'Month': ['Jan', 'Feb', 'Mar', 'Apr', 'May'], 'Sales': [200, 220, 
 prices = {'A': 50, 'B': 75, 'C': 'unknown', 'D': 30}
 
 # Write a function to calculate the total price of all items, handling any non-numeric values by skipping them.
+
 # Include error handling in your function and explain where and why it’s needed.
 
 #######################################################################################################################################################
